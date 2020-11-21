@@ -68,12 +68,12 @@ a,a:hover{
 }
 .card-section .card{
 
-    box-shadow: 3px 7px 20px 0px #E5EEF3;
+    box-shadow: 3px 24px 20px 0px #E5EEF3;
     border: none;
     margin-bottom: 100px;
 }
 .card-section .card-body{
-	padding: 37px 20px;
+	padding: 53px 20px;
 }
 
 
@@ -224,9 +224,10 @@ a,a:hover{
 
 .footer-section{
 	width: 100%;
-	padding: 80px 0px;
+	padding: 90px 0px 20px;
 	background: #333333;
 	color: #fff !important;
+	margin-top: 100px;
 }
 
 .footer-section h3{color: #fff;font-weight: 700;margin-bottom: 25px;}
