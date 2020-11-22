@@ -40,6 +40,16 @@ a,a:hover{
     font-weight: 600;
     
 }
+.navbar-wrapper{
+	z-index: 1;
+	background-color: #fff;
+	
+ padding: 22px 0px;
+display: flex;
+justify-content: center;
+width: 100%;
+	
+}
 .menu-section .navbar-light .navbar-nav .nav-item .nav-link:hover {
     color: #5f67ff;
     

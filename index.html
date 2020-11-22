@@ -24,6 +24,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
+
+    <!-- stickUp.min.css CSS linking here-->
+    <link rel="stylesheet" href="CSS/stickUp.min.css">
+
     
 
     <title>Partners</title>
@@ -31,9 +35,10 @@
   <body>
 
     <section class="menu-section">
-      <div class="container">
-
-        <nav class="navbar navbar-expand-lg navbar-light" >
+      <!-- <div class="container">
+ -->
+        <nav class="navbar navbar-expand-lg navbar-light navbar-wrapper" >
+          <div class="container">
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.PNG" alt="logo" class="img-fluid" width="160px">
           </a>
@@ -82,8 +87,9 @@
             </ul>
             
           </div>
+        </div>
         </nav>
-      </div>
+      <!-- </div> -->
     </section>
 
     
@@ -564,6 +570,17 @@
  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
+
+
+    <script src="js/stickUp.min.js"></script>
+      <script type="text/javascript">
+      jQuery(function($) {
+        $(document).ready( function() {
+          //enabling stickUp on the '.navbar-wrapper' class
+        $('.navbar-wrapper').stickUp();
+        });
+      });
+      </script>
 
 
   </body>
