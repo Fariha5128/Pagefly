@@ -254,8 +254,8 @@ a,a:hover{
 .steps-section a{
 	position: absolute;
 	bottom: 4%;
-	left: 42%;
-	transform: translate(-42%,4%);
+	left: 50%;
+	transform: translate(-50%,4%);
 	color: #fff!important;
         background-color: #5f67ff;
         border-color: #5f67ff;
@@ -270,29 +270,6 @@ a,a:hover{
 
 }
 
-.steps-section .btn{
-	position: absolute;
-	bottom: 4%;
-	left: 42%;
-	transform: translate(-42%,4%);
-	color: #fff!important;
-        background-color: #5f67ff;
-        border-color: #5f67ff;
-        padding: 14px 24px !important;
-        font-weight: 700;
-        text-align: center;
-	
-	font-size: 16px;
-	text-transform: uppercase;
-	border-radius: 6px;
-	text-decoration: none;
-
-}
-.steps-section .btn:hover {
-    color: #fff!important;
-    background-color: #464CC5 	!important;
-    text-decoration: none;
-}
 
 .steps-section a:hover {
     color: #fff!important;
