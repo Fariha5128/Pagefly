@@ -3,18 +3,188 @@
 }
 
 @media (max-width: 1200px) {
-
+	.menu-section .navbar-light .navbar-nav .nav-item .nav-link {
+	    
+	    font-size: 14px;
+	    
+	    margin: 10px 8px;
+	}
+	.partners h2 {
+	    
+	    width: 37%;
+	    padding: 21px 125px;
+	    
+	    font-size: 42px;
+	    
+	}
+	.card-section .card-text:last-child {
+	    margin-bottom: 0;
+	    color: #666;
+	    font-size: 15px;
+    }
+    .bear-section .bear-pic {
+        
+        padding: 48px 12px;
+    }
 
 }
 
 @media (max-width: 992px) {
-	
+	.partners h2 {
+	    
+	    width: 38%;
+	    padding: 22px 49px;
+	    
+	    font-size: 48px;
+	    
+	}
+	.partners h1 {
+	 
+	    font-size: 62px;
+	    
+	    margin: 32px 0px;
+	}
+	.partners h5 {
+	    
+	    font-size: 33px;
+	    
+	    margin-bottom: 60px;
+	}
+	.card-section .card-body {
+	    padding: 52px 14px;
+	    height: 294px;
+	}
+	.bear-section .bear-pic {
+	    padding: 48px 0px;
+	}
+	.bear-section .bear-pic img{
+	    width: 80%;
+	}
+	.bear-section h6 {
+	    margin-bottom: 0.75rem;
+	    font-size: 16px;
+	    
+	    
+	    margin: 19px 0px;
+	}
+	.bear-section .card-body {
+	    padding: 64px 30px;
+	}
+	.our-partner-section .heading-inner h1 {
+	    
+	    font-size: 55px;
+	   
+	}
+	.our-partner-section .card-body {
+	    padding: 65px 22px;
+	}
+	.steps-section h6 {
+	    margin-bottom: ;
+	    font-size: 18px;
+	    
+	}
+	.steps-section .card-text:last-child {
+	    
+	    
+	    font-size: 15px;
+	    
+    }
+    .footer-section h3 {
+        
+        font-size: 20px;
+    }
+    .footer-section p {
+        font-size: 14px;
+    }
+
 }
 
 @media (max-width: 768px) {
-
+	.partners h2 {
+	    width: 45%;
+	    padding: 22px 29px;
+	    font-size: 46px;
+	}
+	.partners h1 {
+	    font-size: 60px;
+	   
+	}
+	.card-img-top {
+	   
+	    padding: 0px 88px;
+	}
+	.card-section .card-title {
+	    margin-bottom: 0.75rem;
+	    font-size: 28px;
+	  
+	}
+	.card-section .card-text:last-child {
+		font-size: 16px;
+		padding: 0px 40px;
+	}
+	.card-section .card-body {
+	    padding: 26px 10px;
+	    height: 215px;
+	}
+	.our-partner-section .heading-inner h1 {
+	    font-size: 46px;
+	}
+	.our-partner-section .card-title {
+	    font-size: 24px;
+	}
+	.our-partner-section .card-img-top {
+	    
+	    padding: 5px 61px;
+	}
+	.steps-section .card-body {
+	    padding: 18px 50px;
+	    text-align: center;
+	}
+	.steps-section .card {
+	    border: none;
+	    margin-bottom: 36px;
+	    margin-top: 13px;
+	}
+	.steps-section a {
+	    position: absolute;
+	    bottom: -3%;
+	    left: 50%;
+	    transform: translate(-50%,-3%);
+	    
+	}
+	.footer-section h3 {
+	  
+	    margin-bottom: 25px;
+	    padding-top: 38px;
+	}
 }
 
 @media (max-width: 576px) {
-	
+	.partners h2 {
+	    width: 49%;
+	    padding: 22px 29px;
+	    font-size: 46px;
+	}
+	.partners h1 {
+	    font-size: 64px;
+	    margin: 32px 0px;
+	}
+	.bear-section .bear-pic {
+	    padding: 30px 74px;
+	}
+	.bear-section .bear-pic img {
+	    width: 95%;
+	}
+	.bear-section .card-body {
+	    padding: 26px 30px;
+	}
+	.our-partner-section .card-img-top {
+    width: 94%;
+    padding: 19px 67px;
+}
+.our-partner-section .card {
+    border: none;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
 }
