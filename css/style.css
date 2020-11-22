@@ -40,6 +40,15 @@ a,a:hover{
     font-weight: 600;
     
 }
+.menu-section .navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: #5f67ff;
+    
+}
+.menu-section .btn-info:hover {
+    color: #fff!important;
+    background-color: #464CC5 	!important;
+    
+}
 
 
 .partners hr{
@@ -72,6 +81,22 @@ a,a:hover{
     box-shadow: 3px 24px 20px 0px #E5EEF3;
     border: none;
     margin-bottom: 100px;
+   
+}
+.card-section .card:hover{
+	 animation-name: Zoom;
+    animation-duration: 1s;
+}
+@keyframes Zoom {
+
+	from{
+    transform: scale(1);
+
+	}
+	to{
+		transform: scale(1.025);
+
+	}
 }
 .card-section .card-body{
 	padding: 53px 20px;
@@ -124,7 +149,21 @@ a,a:hover{
     letter-spacing: 1px;
     margin: 19px 0px;
 }
+.bear-section .card:hover{
+	 animation-name: Zoom;
+    animation-duration: 1s;
+}
+@keyframes Zoom {
 
+	from{
+    transform: scale(1);
+
+	}
+	to{
+		transform: scale(1.025);
+
+	}
+}
 
 .our-partner-section{
 	width: 100%;
@@ -142,6 +181,9 @@ a,a:hover{
     border: none;
     margin-bottom: 100px;
     margin-top: 20px;
+}
+.our-partner-section .feature-inner{
+	margin: 0px;
 }
 .our-partner-section .card-body{
 	padding: 65px 28px;
