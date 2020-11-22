@@ -187,4 +187,12 @@
     margin-bottom: 0px;
     margin-top: 20px;
 }
+.steps-section h2 {
+    font-size: 28px;
+}
+.footer-section {
+    width: 100%;
+    padding: 90px 38px 20px;
+    
+}
 }
